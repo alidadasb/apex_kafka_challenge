@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      group-id: apex
+kafka:
+  productSubtotalTopic: 'topic1'
+  productDetailsTopic: 'topic2'
+
